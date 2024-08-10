@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="ltr">
 <head>
-{% block head %}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
@@ -11,7 +10,6 @@
 <link rel="canonical" href="{% if page.permalink %}{{ page.permalink }}{% elif section.permalink %}{{ section.permalink }}{% else %}{{ config.base_url }}{% endif %}">
 
 <link rel="stylesheet" type="text/css" href="{{ get_url(path="assets/css/style.css") }}">
-{% endblock %}
 </head>
 <body>
 <header id="topheader">
@@ -20,7 +18,7 @@
 <a href="{{ get_url(path='@/posts/_index.md') }}">Archive</a>
 <a href="{{ get_url(path='@/about/_index.md') }}">About</a>
 </nav>
-<img id="logo" src="/assets/img/logo.png">
+<img id="logo" src="{{ get_url(path='assets/img/logo.png') }}">
 </header>
 <main>
 {% block content %}

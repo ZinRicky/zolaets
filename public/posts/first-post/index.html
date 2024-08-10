@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-<title>First post</title>
+<title>The absolute basics</title>
 <meta name="description" content="Demo for a Zonelets style recreation in Zola.">
 
 <link rel="canonical" href="https:&#x2F;&#x2F;zolaets.neocities.org&#x2F;posts&#x2F;first-post&#x2F;">
 
 <link rel="stylesheet" type="text/css" href="https://zolaets.neocities.org/assets/css/style.css">
-
 </head>
 <body>
 <header id="topheader">
@@ -20,21 +18,43 @@
 <a href="https://zolaets.neocities.org/posts/">Archive</a>
 <a href="https://zolaets.neocities.org/about/">About</a>
 </nav>
-<img id="logo" src="/assets/img/logo.png">
+<img id="logo" src="https://zolaets.neocities.org/assets/img/logo.png">
 </header>
 <main>
 
 <article>
-<h1 id="post-title">First post</h1>
-<p>This is a simple post to showcase the functionalities of this theme <em>inside</em> a blog post.</p>
-<h2 id="the-basics">The basics</h2>
-<p>We can make words <strong>bold</strong>, <em>italic</em> or <em><strong>both</strong></em>.
+<h1 id="post-title">The absolute basics</h1>
+<p>First things first, we can make words <strong>bold</strong>, <em>italic</em> or <em><strong>both</strong></em>.
 We can also switch to a <code>monospace font</code> if we ever need to present a thing verbatim — inline code, for instance.</p>
 <p>Long text isn’t justified nor hyphenated, as you can see below.<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum massa in eros maximus, eu gravida est iaculis. Fusce dignissim maximus rutrum. Vivamus ac vulputate ipsum. Proin nec elit arcu. Aliquam vitae euismod ex. Donec varius nec sapien non condimentum. Aliquam erat volutpat. Nullam feugiat velit eleifend mauris aliquam, vitae iaculis quam luctus. Suspendisse consequat nibh eget nulla porttitor, ut fringilla mi sollicitudin. Nunc sit amet gravida sapien, nec tempus risus. Mauris eget rhoncus nibh. Vivamus lacinia placerat est eget eleifend. Ut interdum sapien in nisi rutrum pulvinar. Nullam vel dui ut felis tincidunt hendrerit.</p>
 <p>A <a href="#">link</a> doesn’t get any special treatment when in the post, expect when hovered over.
 Selecting a portion of normal text should not lead to strange colours.<br />
 Similar non-exciting behaviour can be expected for titles’ size.</p>
+<p>Thanks to <a href="https://www.getzola.org/documentation/content/syntax-highlighting/">Zola’s syntax highlighting</a>, it was easy to render code properly.
+In order to solve horizontal overflow, I opted for <code>overflow-x: scroll</code>.</p>
+<pre data-lang="html" style="background-color:#ffffff;color:#000000;" class="language-html "><code class="language-html" data-lang="html"><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">html</span><span style="color:#1c02ff;">&gt;
+</span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">head</span><span style="color:#1c02ff;">&gt;
+</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">title</span><span style="color:#1c02ff;">&gt;</span><span>Hello, world!</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">title</span><span style="color:#1c02ff;">&gt;
+</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">style</span><span style="color:#1c02ff;">&gt;
+</span><span>        </span><span style="font-weight:bold;color:#000000;">h1 </span><span>{
+</span><span>            </span><span style="color:#cc6633;">font-family</span><span>: </span><span style="color:#990099;">sans-serif</span><span>;
+</span><span>        }
+</span><span>    </span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">style</span><span style="color:#1c02ff;">&gt;
+</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">script</span><span style="color:#1c02ff;">&gt;
+</span><span>        </span><span style="color:#cc6633;">console</span><span>.</span><span style="color:#990099;">log</span><span>(</span><span style="color:#666666;">&quot;Hello, world!&quot;</span><span>);
+</span><span>    </span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">script</span><span style="color:#1c02ff;">&gt;
+</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">head</span><span style="color:#1c02ff;">&gt;
+</span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">body</span><span style="color:#1c02ff;">&gt;
+</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">h1 </span><span style="font-style:italic;color:#1c02ff;">id</span><span style="color:#1c02ff;">=</span><span style="color:#666666;">&quot;top-site&quot;</span><span style="color:#1c02ff;">&gt;</span><span>Hello, world!</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">h1</span><span style="color:#1c02ff;">&gt;
+</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">img </span><span style="font-style:italic;color:#1c02ff;">src</span><span style="color:#1c02ff;">=</span><span style="color:#666666;">&quot;/foo.png&quot; </span><span style="font-style:italic;color:#1c02ff;">alt</span><span style="color:#1c02ff;">=</span><span style="color:#666666;">&quot;The most stunning view of Milan (ITA).&quot;</span><span style="color:#1c02ff;">&gt;
+</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">body</span><span style="color:#1c02ff;">&gt;
+</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">html</span><span style="color:#1c02ff;">&gt;
+</span></code></pre>
+<p>The <code>&lt;hr&gt;</code> tag should also behave properly and accordingly to the overall style.</p>
+<hr />
+<p>Like this.
+I took some liberty with respect to the original CSS hints, but the result is much more bearable.</p>
 
 </article>
 <aside id="back-to-top">

@@ -15,8 +15,7 @@
 
 html {
     background-image: url("/assets/img/background.jpg");
-    background-size: top;
-    background-repeat: repeat-x;
+    background-size: cover;
 	background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -110,6 +109,13 @@ code {
 #back-to-top {
     max-width: fit-content;
     margin: 1rem auto;
+}
+
+main hr {
+    margin: 0.5rem;
+    border-style: outset;
+    border-width: 2px;
+    border-color: var(--color-border);
 }
 
 @media only screen and (min-width: 768px) {

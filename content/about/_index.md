@@ -20,7 +20,7 @@ At the moment, this theme is **very** basic.
 But so is Zonelets, so I don’t mind.
 So far, I have implemented:
 
-- Zonelets’s default theme, i.e. the one for its main website;
+- Zonelets’s *Deep Blue* theme, i.e. the one for its main website;
 - basic blog management, i.e. a `posts` directory that accepts `YYYY-MM-DD-slug-of-the-post.md` files;
 - syntax highlighting (I just took one of Zola’s default highlighters and called it a day).
 
@@ -31,3 +31,10 @@ These are the things I would like to add to this theme:
     - Spotify and Bandcamp iframes;
 - a tag system;
 - an Atom feed generator.
+
+I accept suggestions on this theme’s [GitHub repo](https://github.com/ZinRicky/zolaets), but don’t expect fast replies at all 😅.
+
+## About me
+
+If you are *really that interested*&hellip; I’m [ZinRicky](https://tilde.team/~zinricky/), an Italian 24-year-old data science student.
+I’m still in the “jackass of all trades” stage, but I hope it will get better someday.

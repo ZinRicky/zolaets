@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Setting up the Zola template</title>
+<meta name="description" content="Demo for a Zonelets style recreation in Zola.">
+
+<link rel="canonical" href="https:&#x2F;&#x2F;zolaets.neocities.org&#x2F;posts&#x2F;templating-shenanigans&#x2F;">
+
+<link rel="stylesheet" type="text/css" href="https://zolaets.neocities.org/assets/css/style.css">
+</head>
+<body>
+<header id="topheader">
+<nav id="topnav">
+<a href="https:&#x2F;&#x2F;zolaets.neocities.org&#x2F;">Home</a>
+<a href="https://zolaets.neocities.org/posts/">Archive</a>
+<a href="https://zolaets.neocities.org/about/">About</a>
+</nav>
+<img id="logo" src="https://zolaets.neocities.org/assets/img/logo.png">
+</header>
+<main>
+
+<article>
+<h1 id="post-title">Setting up the Zola template</h1>
+<p>When I started this silly little project some hours ago, I thought that Zonelets was <em>astonishingly simple</em> to replicate.
+While Zonelets is not exactly a CSS stunt or a JS mess, there are some things that took me <em>way too much time</em> to implement properly.</p>
+<h2 id="yet-again-the-basics">Yet again, the basics</h2>
+<p>Themes for Zola usually start from a <code>base.html</code> file.
+The <code>&lt;head&gt;</code> is not that complicated; it’s just long to write.
+The most general <code>&lt;body&gt;</code> possible has a navbar at the top, a main section and a rather small footer; these weren’t hard either.</p>
+<p>Adding a <code>content</code> Tera block makes filling the main part of a page rather simple.
+In fact, <code>page.html</code> (for blog posts) and <code>standalone.html</code> (for the <em>about</em> page) almost wrote themselves.</p>
+<h2 id="pagination-madness">Pagination madness</h2>
+<p>The hardest thing was to properly set up the “recent articles” section in the index.
+It shows the last blog entries, but no more than four; and, if there are more than four posts on the sites, then it spawns a link to the archive.</p>
+<p>Since I’m not very familiar with the ins and outs of Tera templating, I struggled for half an hour, but then I finally found the correct order of <code>{% if 4 &lt; post_section.pages | length %}</code>.</p>
+<p>The archive section was much easier after all that struggle.</p>
+
+</article>
+<aside id="back-to-top">
+<a href="#post-title">Back to top</a>
+</aside>
+
+</main>
+<footer>Zolaets is written by <a href="https:&#x2F;&#x2F;tilde.zone&#x2F;@zinricky">ZinRicky</a>, built with the <a href="https://github.com/ZinRicky/zolaets">Zolaets</a> theme for <a href="https://www.getzola.org/">Zola</a> and hosted on <a href="https:&#x2F;&#x2F;neocities.org&#x2F;">Neocities</a>.</footer>
+</body>
+</html>
