@@ -23,10 +23,3 @@ highlight_theme = "classic-modified"
 
 [extra]
 # Put all your custom variables here
-# Personal variables
-email = "zinricky@tilde.team"
-social = "https://tilde.zone/@zinricky"
-
-# Hosting variables
-web_host = "Neocities"
-web_host_link = "https://neocities.org/"

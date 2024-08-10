@@ -1,7 +1,7 @@
 name = "Zolaets"
 description = "Zonelets style recreation in Zola."
 license = "MIT"
-homepage = "https://github.com/getzola/hyde"
+homepage = "https://github.com/ZinRicky/zolaets"
 # The minimum version of Zola required
 min_version = "0.4.0"
 # An optional live demo URL
@@ -12,15 +12,22 @@ demo = ""
 # be merged with user data, some kind of prefix or nesting is preferable
 # Use snake_casing to be consistent with the rest of Zola
 [extra]
+# Personal variables
+email = "zinricky@tilde.team"
+social = "https://tilde.zone/@zinricky"
+
+# Hosting variables
+web_host = "Neocities"
+web_host_link = "https://neocities.org/"
 
 # The theme author info: you!
 [author]
-name = "Vincent Prouillet"
-homepage = "https://vincent.is"
+name = "~zinricky"
+homepage = "https://tilde.team/~zinricky/"
 
 # If this is porting a theme from another static site engine, provide
 # the info of the original author here
 [original]
-author =  "mdo"
-homepage = "https://markdotto.com/"
-repo = "https://www.github.com/mdo/hyde"
+author =  "Marina Kittaka"
+homepage = "https://marinakittaka.com/"
+repo = "https://zonelets.itch.io/zonelets"
