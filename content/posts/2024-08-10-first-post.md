@@ -41,4 +41,4 @@ The `<hr>` tag should also behave properly and accordingly to the overall style.
 ---
 
 Like this.
-I took some liberty with respect to the original CSS hints, but the result is much more bearable.
+I took the freedom to deviate a bit from the original CSS hints, and the result is much more bearable.
