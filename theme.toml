@@ -3,9 +3,9 @@ description = "Zonelets style recreation in Zola."
 license = "MIT"
 homepage = "https://github.com/ZinRicky/zolaets"
 # The minimum version of Zola required
-min_version = "0.4.0"
+min_version = "0.19.1"
 # An optional live demo URL
-demo = ""
+demo = "https://zolaets.neocities.org/"
 
 # Any variable there can be overridden in the end user `config.toml`
 # You don't need to prefix variables by the theme name but as this will
@@ -13,12 +13,12 @@ demo = ""
 # Use snake_casing to be consistent with the rest of Zola
 [extra]
 # Personal variables
-email = "zinricky@tilde.team"
-social = "https://tilde.zone/@zinricky"
+email = ""
+social = ""
 
 # Hosting variables
-web_host = "Neocities"
-web_host_link = "https://neocities.org/"
+web_host = ""
+web_host_link = ""
 
 # The theme author info: you!
 [author]

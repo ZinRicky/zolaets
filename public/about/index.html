@@ -25,12 +25,39 @@
 <main>
 
 <h1>About</h1>
-<ul id="posts">
+<h2 id="about-the-original">About the original</h2>
+<p>Zonelets is a semi-automatic blog builder.
+Its main gimmick is being completely manual except for a single JS script, which keeps track of the published posts.
+For detailed information about its use, please check the <a href="https://zonelets.net/posts/2020-11-08-Quick-Start-Guide">quick start guide</a> and the references therein.</p>
+<h2 id="about-this-theme">About this theme</h2>
+<p>This is a theme for <a href="https://www.getzola.org/">Zola</a>, a static site generator that has two gimmicks:</p>
+<ul>
+<li>being a single lightweight executable, even on Windows;</li>
+<li>being written in Rust (dear Rustaceans, please don’t hurt me).</li>
+</ul>
+<p>At the moment, this theme is <strong>very</strong> basic.
+But so is Zonelets, so I don’t mind.
+So far, I have implemented:</p>
+<ul>
+<li>Zonelets’s default theme, i.e. the one for its main website;</li>
+<li>basic blog management, i.e. a <code>posts</code> directory that accepts <code>YYYY-MM-DD-slug-of-the-post.md</code> files;</li>
+<li>syntax highlighting (I just took one of Zola’s default highlighters and called it a day).</li>
+</ul>
+<p>These are the things I would like to add to this theme:</p>
+<ul>
+<li>shortcodes for:
+<ul>
+<li>figures with alt-text and optional caption;</li>
+<li>privacy-respecting YouTube iframes;</li>
+<li>Spotify and Bandcamp iframes;</li>
+</ul>
+</li>
+<li>a tag system;</li>
+<li>an Atom feed generator.</li>
 </ul>
 
+
 </main>
-<footer>
-Zolaets is written by <a href="https:&#x2F;&#x2F;tilde.zone&#x2F;@zinricky">~zinricky</a>, built with the <a href="#">Zolaets</a> theme for <a href="https://www.getzola.org/">Zola</a> and hosted on <a href="https:&#x2F;&#x2F;neocities.org&#x2F;">Neocities</a>.
-</footer>
+<footer>Zolaets is written by <a href="https:&#x2F;&#x2F;tilde.zone&#x2F;@zinricky">ZinRicky</a>, built with the <a href="https://github.com/ZinRicky/zolaets">Zolaets</a> theme for <a href="https://www.getzola.org/">Zola</a> and hosted on <a href="https:&#x2F;&#x2F;neocities.org&#x2F;">Neocities</a>.</footer>
 </body>
 </html>

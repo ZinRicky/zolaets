@@ -10,4 +10,7 @@
 <li><a href="{{post.permalink}}"><time datetime="{{ post.date }}">{{ post.date | date(format="%Y-%m-%d", timezone="UTC")}}</time> » {{ post.title }}</a></li>
 {% endfor %}
 </ul>
+{% if 4 < post_section.pages | length %}
+<a href="{{ get_url(path='@/posts/_index.md') }}">» more posts</a>
+{% endif %}
 {% endblock content %}
