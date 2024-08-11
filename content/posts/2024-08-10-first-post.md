@@ -14,7 +14,8 @@ Selecting a portion of normal text should not lead to strange colours.
 Similar non-exciting behaviour can be expected for titles’ size.
 
 Thanks to [Zola’s syntax highlighting](https://www.getzola.org/documentation/content/syntax-highlighting/), it was easy to render code properly.
-In order to solve horizontal overflow, I opted for `overflow-x: scroll`.
+In order to solve horizontal overflow, I opted for `overflow-x: scroll` at first.
+After watching [this YouTube video](https://youtu.be/6m3ZmlgfZlA), I decided to use `overflow-x: auto;`.
 
 ```html
 <html>
