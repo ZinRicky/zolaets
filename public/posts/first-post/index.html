@@ -1,67 +1,18 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-
-<title>The absolute basics</title>
-<meta name="description" content="Demo for a Zonelets style recreation in Zola.">
-
-<link rel="canonical" href="https:&#x2F;&#x2F;zolaets.neocities.org&#x2F;posts&#x2F;first-post&#x2F;">
-
-<link rel="stylesheet" type="text/css" href="https://zolaets.neocities.org/assets/css/style.css">
-</head>
-<body>
-<header id="topheader">
-<nav id="topnav">
-<a href="https:&#x2F;&#x2F;zolaets.neocities.org&#x2F;">Home</a>
-<a href="https://zolaets.neocities.org/posts/">Archive</a>
-<a href="https://zolaets.neocities.org/about/">About</a>
-</nav>
-<img id="logo" src="https://zolaets.neocities.org/assets/img/logo.png">
-</header>
-<main>
-
-<article>
-<h1 id="post-title">The absolute basics</h1>
-<p>First things first, we can make words <strong>bold</strong>, <em>italic</em> or <em><strong>both</strong></em>.
-We can also switch to a <code>monospace font</code> if we ever need to present a thing verbatim — inline code, for instance.</p>
-<p>Long text isn’t justified nor hyphenated, as you can see below.<br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum massa in eros maximus, eu gravida est iaculis. Fusce dignissim maximus rutrum. Vivamus ac vulputate ipsum. Proin nec elit arcu. Aliquam vitae euismod ex. Donec varius nec sapien non condimentum. Aliquam erat volutpat. Nullam feugiat velit eleifend mauris aliquam, vitae iaculis quam luctus. Suspendisse consequat nibh eget nulla porttitor, ut fringilla mi sollicitudin. Nunc sit amet gravida sapien, nec tempus risus. Mauris eget rhoncus nibh. Vivamus lacinia placerat est eget eleifend. Ut interdum sapien in nisi rutrum pulvinar. Nullam vel dui ut felis tincidunt hendrerit.</p>
-<p>A <a href="#">link</a> doesn’t get any special treatment when in the post, expect when hovered over.
-Selecting a portion of normal text should not lead to strange colours.<br />
-Similar non-exciting behaviour can be expected for titles’ size.</p>
-<p>Thanks to <a href="https://www.getzola.org/documentation/content/syntax-highlighting/">Zola’s syntax highlighting</a>, it was easy to render code properly.
-In order to solve horizontal overflow, I opted for <code>overflow-x: scroll</code>.</p>
-<pre data-lang="html" style="background-color:#ffffff;color:#000000;" class="language-html "><code class="language-html" data-lang="html"><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">html</span><span style="color:#1c02ff;">&gt;
-</span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">head</span><span style="color:#1c02ff;">&gt;
-</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">title</span><span style="color:#1c02ff;">&gt;</span><span>Hello, world!</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">title</span><span style="color:#1c02ff;">&gt;
-</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">style</span><span style="color:#1c02ff;">&gt;
-</span><span>        </span><span style="font-weight:bold;color:#000000;">h1 </span><span>{
-</span><span>            </span><span style="color:#cc6633;">font-family</span><span>: </span><span style="color:#990099;">sans-serif</span><span>;
+<!doctype html><html dir=ltr lang=en><head><meta charset=utf-8><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name=viewport><title>The absolute basics</title><meta content="Demo for a Zonelets style recreation in Zola." name=description><link href=https://zolaets.neocities.org/posts/first-post/ rel=canonical><link href=https://zolaets.neocities.org/assets/css/style.css rel=stylesheet><body><header id=topheader><nav id=topnav><a href=https://zolaets.neocities.org/>Home</a><a href=https://zolaets.neocities.org/posts/>Archive</a><a href=https://zolaets.neocities.org/about/>About</a></nav><img id=logo src=https://zolaets.neocities.org/assets/img/logo.png></header><main><article><h1 id=post-title>The absolute basics</h1><p>First things first, we can make words <strong>bold</strong>, <em>italic</em> or <em><strong>both</strong></em>. We can also switch to a <code>monospace font</code> if we ever need to present a thing verbatim — inline code, for instance.<p>Long text isn’t justified nor hyphenated, as you can see below.<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum massa in eros maximus, eu gravida est iaculis. Fusce dignissim maximus rutrum. Vivamus ac vulputate ipsum. Proin nec elit arcu. Aliquam vitae euismod ex. Donec varius nec sapien non condimentum. Aliquam erat volutpat. Nullam feugiat velit eleifend mauris aliquam, vitae iaculis quam luctus. Suspendisse consequat nibh eget nulla porttitor, ut fringilla mi sollicitudin. Nunc sit amet gravida sapien, nec tempus risus. Mauris eget rhoncus nibh. Vivamus lacinia placerat est eget eleifend. Ut interdum sapien in nisi rutrum pulvinar. Nullam vel dui ut felis tincidunt hendrerit.<p>A <a href=#>link</a> doesn’t get any special treatment when in the post, expect when hovered over. Selecting a portion of normal text should not lead to strange colours.<br> Similar non-exciting behaviour can be expected for titles’ size.<p>Thanks to <a href=https://www.getzola.org/documentation/content/syntax-highlighting/>Zola’s syntax highlighting</a>, it was easy to render code properly. In order to solve horizontal overflow, I opted for <code>overflow-x: scroll</code>.<pre class=language-html data-lang=html style=color:#000;background-color:#fff><code class=language-html data-lang=html><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>html</span><span style=color:#1c02ff>>
+</span><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>head</span><span style=color:#1c02ff>>
+</span><span>    </span><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>title</span><span style=color:#1c02ff>></span><span>Hello, world!</span><span style=color:#1c02ff>&LT/</span><span style=color:#1c02ff;font-weight:700>title</span><span style=color:#1c02ff>>
+</span><span>    </span><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>style</span><span style=color:#1c02ff>>
+</span><span>        </span><span style=color:#000;font-weight:700>h1 </span><span>{
+</span><span>            </span><span style=color:#c63>font-family</span><span>: </span><span style=color:#909>sans-serif</span><span>;
 </span><span>        }
-</span><span>    </span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">style</span><span style="color:#1c02ff;">&gt;
-</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">script</span><span style="color:#1c02ff;">&gt;
-</span><span>        </span><span style="color:#cc6633;">console</span><span>.</span><span style="color:#990099;">log</span><span>(</span><span style="color:#666666;">&quot;Hello, world!&quot;</span><span>);
-</span><span>    </span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">script</span><span style="color:#1c02ff;">&gt;
-</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">head</span><span style="color:#1c02ff;">&gt;
-</span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">body</span><span style="color:#1c02ff;">&gt;
-</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">h1 </span><span style="font-style:italic;color:#1c02ff;">id</span><span style="color:#1c02ff;">=</span><span style="color:#666666;">&quot;top-site&quot;</span><span style="color:#1c02ff;">&gt;</span><span>Hello, world!</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">h1</span><span style="color:#1c02ff;">&gt;
-</span><span>    </span><span style="color:#1c02ff;">&lt;</span><span style="font-weight:bold;color:#1c02ff;">img </span><span style="font-style:italic;color:#1c02ff;">src</span><span style="color:#1c02ff;">=</span><span style="color:#666666;">&quot;/foo.png&quot; </span><span style="font-style:italic;color:#1c02ff;">alt</span><span style="color:#1c02ff;">=</span><span style="color:#666666;">&quot;The most stunning view of Milan (ITA).&quot;</span><span style="color:#1c02ff;">&gt;
-</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">body</span><span style="color:#1c02ff;">&gt;
-</span><span style="color:#1c02ff;">&lt;/</span><span style="font-weight:bold;color:#1c02ff;">html</span><span style="color:#1c02ff;">&gt;
-</span></code></pre>
-<p>The <code>&lt;hr&gt;</code> tag should also behave properly and accordingly to the overall style.</p>
-<hr />
-<p>Like this.
-I took the freedom to deviate a bit from the original CSS hints, and the result is much more bearable.</p>
-
-</article>
-<aside id="back-to-top">
-<a href="#post-title">Back to top</a>
-</aside>
-
-</main>
-<footer>Zolaets is written by <a href="https:&#x2F;&#x2F;tilde.zone&#x2F;@zinricky">ZinRicky</a>, built with the <a href="https://github.com/ZinRicky/zolaets">Zolaets</a> theme for <a href="https://www.getzola.org/">Zola</a> and hosted on <a href="https:&#x2F;&#x2F;neocities.org&#x2F;">Neocities</a>.</footer>
-</body>
-</html>
+</span><span>    </span><span style=color:#1c02ff>&LT/</span><span style=color:#1c02ff;font-weight:700>style</span><span style=color:#1c02ff>>
+</span><span>    </span><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>script</span><span style=color:#1c02ff>>
+</span><span>        </span><span style=color:#c63>console</span><span>.</span><span style=color:#909>log</span><span>(</span><span style=color:#666>"Hello, world!"</span><span>);
+</span><span>    </span><span style=color:#1c02ff>&LT/</span><span style=color:#1c02ff;font-weight:700>script</span><span style=color:#1c02ff>>
+</span><span style=color:#1c02ff>&LT/</span><span style=color:#1c02ff;font-weight:700>head</span><span style=color:#1c02ff>>
+</span><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>body</span><span style=color:#1c02ff>>
+</span><span>    </span><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>h1 </span><span style=color:#1c02ff;font-style:italic>id</span><span style=color:#1c02ff>=</span><span style=color:#666>"top-site"</span><span style=color:#1c02ff>></span><span>Hello, world!</span><span style=color:#1c02ff>&LT/</span><span style=color:#1c02ff;font-weight:700>h1</span><span style=color:#1c02ff>>
+</span><span>    </span><span style=color:#1c02ff><</span><span style=color:#1c02ff;font-weight:700>img </span><span style=color:#1c02ff;font-style:italic>src</span><span style=color:#1c02ff>=</span><span style=color:#666>"/foo.png" </span><span style=color:#1c02ff;font-style:italic>alt</span><span style=color:#1c02ff>=</span><span style=color:#666>"The most stunning view of Milan (ITA)."</span><span style=color:#1c02ff>>
+</span><span style=color:#1c02ff>&LT/</span><span style=color:#1c02ff;font-weight:700>body</span><span style=color:#1c02ff>>
+</span><span style=color:#1c02ff>&LT/</span><span style=color:#1c02ff;font-weight:700>html</span><span style=color:#1c02ff>>
+</span></code></pre><p>The <code>&LThr></code> tag should also behave properly and accordingly to the overall style.<hr><p>Like this. I took the freedom to deviate a bit from the original CSS hints, and the result is much more bearable.</article><aside id=back-to-top><a href=#post-title>Back to top</a></aside></main><footer>Zolaets is written by <a href=https://tilde.zone/@zinricky>ZinRicky</a>, built with the <a href=https://github.com/ZinRicky/zolaets>Zolaets</a> theme for <a href=https://www.getzola.org/>Zola</a> and hosted on <a href=https://neocities.org/>Neocities</a>.</footer>
