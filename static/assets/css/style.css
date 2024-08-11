@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    width: min(100% - 4rem, 70ch);
+    width: min(100% - 2rem, 70ch);
     margin: 3rem auto;
     background-color: var(--color-background);
     outline-color: var(--color-border);

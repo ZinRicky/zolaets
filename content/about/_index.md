@@ -22,13 +22,11 @@ So far, I have implemented:
 
 - Zonelets’s *Deep Blue* theme, i.e. the one for its main website;
 - basic blog management, i.e. a `posts` directory that accepts `YYYY-MM-DD-slug-of-the-post.md` files;
-- syntax highlighting (I just took one of Zola’s default highlighters and called it a day).
+- syntax highlighting (I just took one of Zola’s default highlighters and called it a day);
+- shortcodes for YouTube videos and Spotify playlists and albums.
 
 These are the things I would like to add to this theme:
-- shortcodes for:
-    - figures with alt-text and optional caption;
-    - privacy-respecting YouTube iframes;
-    - Spotify and Bandcamp iframes;
+- shortcodes for Bandcamp iframes;
 - a tag system;
 - an Atom feed generator.
 
