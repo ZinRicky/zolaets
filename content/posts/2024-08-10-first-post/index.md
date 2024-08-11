@@ -1,6 +1,7 @@
 +++
 title = "The absolute basics"
 date = 2024-08-10T17:30:00Z
+updated = 2024-08-11T09:50:55Z
 +++
 
 First things first, we can make words **bold**, *italic* or ***both***.
