@@ -25,5 +25,3 @@ Sometimes, you just want to drop a YouTube video in the middle of a blog post.
 Sometimes you just want to share some music.
 
 {{ spotify(id="playlist/37i9dQZF1DWTcqUzwhNmKv") }}
-
-{{ bandcamp(url="https://grimestone.bandcamp.com/album/bloody-keep") }}
